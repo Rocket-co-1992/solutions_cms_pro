@@ -1,0 +1,17 @@
+{
+    "front": {
+        "home": {
+            "GET": ["Pandao\\Controllers\\HomeController", "view", {"ishome": true}]
+        },
+        "page": {
+            "GET": ["Pandao\\Controllers\\PageController", "view"]
+        },
+        "article": {
+            "GET": ["Pandao\\Controllers\\PageController", "viewArticle"]
+        },
+        "contact": {
+            "GET": ["Pandao\\Controllers\\ContactController", "view"],
+            "POST": ["Pandao\\Controllers\\ContactController", "submitForm"]
+        }
+    }
+}

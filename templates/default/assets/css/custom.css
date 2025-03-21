@@ -1,0 +1,117 @@
+/* CUSTOM FONTS FROM GOOGLE ******************
+
+@import url('https://fonts.googleapis.com/css2?family=your_own_font&display=swap');*/
+
+/* CUSTOM FONTS FROM HOST ********************
+
+@font-face {
+    font-family: 'your_own_font2';
+    src: local('your_own_font2'), url('../fonts/your_own_font2.woff') format('woff');
+}*/
+
+/* CUSTOM COLORS VARIABLES *******************
+
+:root {
+    --main-color: #0c1f31; main color override
+    --highlight-color: #cda84f; highlight color override
+}*/
+
+/* CUSTOM HEADINGS ***************************
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'your_own_font', serif;
+    font-weight: 400;
+    text-transform: none;
+}
+h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
+    font-family: 'your_own_font2', sans-serif;
+    font-weight: 200;
+    text-transform: uppercase;
+    letter-spacing: 0.09em;
+}*/
+
+/* H2 CUSTOM *********************************
+
+h2 {
+    font-size: 52px;
+    position: relative;
+    margin-bottom: 70px;
+}*/
+
+/* H2 UNDERLINE ******************************
+
+h2::after {
+    content: '';
+    display: block;
+    width: 200px;
+    height: 1px;
+    background: var(--highlight-color);
+    position: absolute;
+    bottom: -30px;
+    left: 0;
+}
+h2.text-center::after, h2[style*="text-align:center"]::after,
+.text-center h2::after, [style*="text-align:center"] h2::after {
+    transform: translateX(-50%);
+    margin-left: 50%;
+    left: auto !important;
+}*/
+
+/* SLIDE HEADING *****************************
+
+.hero-1 .hero-contents h1 {
+    color: #0c1f31;
+    font-size: 62px;
+}*/
+
+/* SLIDE PARAGRAPH ***************************
+
+.hero-1 .hero-contents p {
+    color: #888888;
+}*/
+
+/* HIDE SLIDE OVERLAY ************************
+
+.hero-1 .single-slide.bg-cover::before {
+    display: none;
+}*/
+
+/* CUSTOM BUTTONS ****************************
+
+.btn {
+    font-weight: normal;
+    text-transform: uppercase;
+    padding: 20px;
+}*/
+
+/* SERVICE CARD WITHOUT BORDERS **************
+
+.single-service-card {
+    border: none;
+    background-color: transparent;
+    box-shadow: none;
+}*/
+
+/* PARALLAX POLYGON **************************
+
+.parallax-wrap {
+    background-color: #434F5B;
+    padding: 10vh 10vh 8vh 10vh;
+    min-height: 450px;
+    transform: translate3d(0, 0, 0);
+    clip-path: polygon(0 18%, 100% 0, 100% 100%, 0% 100%);
+}*/
+
+/* INVERSE FOOTER COLORS *********************
+
+.footer-2 .footer-widgets-wrapper {
+    background-color: #fff;
+}
+.footer-2 .footer-bottom {
+    background-color: var(--main-color);
+}
+.footer-wrap .single-footer-wid.site_info_widget .single-contact-info .icon {
+    color: var(--highlight-color)!important;
+}
+.footer-bottom * {
+    color: #fff!important;
+}*/
